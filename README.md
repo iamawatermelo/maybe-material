@@ -4,7 +4,7 @@
 > 
 > Red, yellow, green, blue, purple, cyan. Light and dark, two contrast options, three background options. 72 variations in total.
 
-Version 2 of my Not Material theme that makes heavy use of the HCT colour
+Version 2 of my [Not Material theme](https://zed.dev/extensions/not-material-theme) that makes heavy use of the HCT colour
 space to create pleasing, harmonious and accessible themes.
 
 ![Cypionate Standard theme](cypionate-standard.png)
@@ -14,7 +14,7 @@ _**Cypionate.** Pretty, Material-inspired themes._
 _**Sunset.** One of six different colours._
 
 ![Honey Standard theme](honey-standard.png)
-_**Honey.** With light and dark, high contrast and low contrast, opaque, transparent or blurred, there's a theme for every palette._
+_**Honey.** With light and dark, high contrast and low contrast, opaque, transparent or blurred, there's a theme for everyone._
 
 ## Get started
 
