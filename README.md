@@ -10,7 +10,7 @@ space to create pleasing, harmonious and accessible themes.
 ![Sunset Standard theme](sunset-standard.png)
 _**Sunset.** Pretty, Material-inspired themes._
 
-![Amethyst Standard theme](cypionate-standard.png)
+![Amethyst Standard theme](amethyst-standard.png)
 _**Amethyst.** One of six different colours._
 
 ![Honey Standard theme](honey-standard.png)
