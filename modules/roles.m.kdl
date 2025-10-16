@@ -292,7 +292,7 @@ layer "m3-roles-dark-standard" {
     // Surface & background colours
     token "background"                apply="neutral-palette"         t=10
     token "on-background"             apply="neutral-palette"         t=90
-    token "surface"                   apply="neutral-palette"         t=10
+    token "surface"                   apply="neutral-palette"         t=5
     token "on-surface"                apply="neutral-palette"         t=90
     token "syntax-base"               apply="neutral-palette"         t=75 c="+20"
     token "surface-variant"           apply="neutral-variant-palette" t=30
@@ -300,10 +300,10 @@ layer "m3-roles-dark-standard" {
     token "surface-dim"               apply="neutral-palette"         t=6
     token "surface-bright"            apply="neutral-palette"         t=24
     token "surface-container-lowest"  apply="neutral-palette"         t=4
-    token "surface-container-low"     apply="neutral-palette"         t=10
-    token "surface-container"         apply="neutral-palette"         t=12
-    token "surface-container-high"    apply="neutral-palette"         t=17
-    token "surface-container-highest" apply="neutral-palette"         t=22
+    token "surface-container-low"     apply="neutral-palette"         t=8
+    token "surface-container"         apply="neutral-palette"         t=10
+    token "surface-container-high"    apply="neutral-palette"         t=12
+    token "surface-container-highest" apply="neutral-palette"         t=14
 
     // Utility & overlay colours
     token "outline"                   apply="neutral-variant-palette" t=60
@@ -359,7 +359,7 @@ layer "m3-roles-dark-medium-contrast" {
     // Surface & background colours
     token "background"                apply="neutral-palette"         t=10
     token "on-background"             apply="neutral-palette"         t=95
-    token "surface"                   apply="neutral-palette"         t=10
+    token "surface"                   apply="neutral-palette"         t=5
     token "on-surface"                apply="neutral-palette"         t=95
     token "syntax-base"               apply="neutral-palette"         t=80 c="+25"
     token "surface-variant"           apply="neutral-variant-palette" t=30
@@ -367,10 +367,10 @@ layer "m3-roles-dark-medium-contrast" {
     token "surface-dim"               apply="neutral-palette"         t=6
     token "surface-bright"            apply="neutral-palette"         t=24
     token "surface-container-lowest"  apply="neutral-palette"         t=4
-    token "surface-container-low"     apply="neutral-palette"         t=10
-    token "surface-container"         apply="neutral-palette"         t=12
-    token "surface-container-high"    apply="neutral-palette"         t=17
-    token "surface-container-highest" apply="neutral-palette"         t=22
+    token "surface-container-low"     apply="neutral-palette"         t=8
+    token "surface-container"         apply="neutral-palette"         t=10
+    token "surface-container-high"    apply="neutral-palette"         t=12
+    token "surface-container-highest" apply="neutral-palette"         t=14
 
     // Utility & overlay colours
     token "outline"                   apply="neutral-variant-palette" t=65
@@ -426,7 +426,7 @@ layer "m3-roles-dark-high-contrast" {
     // Surface & background colours
     token "background"                apply="neutral-palette"         t=10
     token "on-background"             apply="neutral-palette"         t=100
-    token "surface"                   apply="neutral-palette"         t=10
+    token "surface"                   apply="neutral-palette"         t=2
     token "on-surface"                apply="neutral-palette"         t=100
     token "syntax-base"               apply="neutral-palette"         t=85 c="+30"
     token "surface-variant"           apply="neutral-variant-palette" t=30
