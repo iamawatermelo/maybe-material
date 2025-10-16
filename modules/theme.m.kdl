@@ -1,0 +1,301 @@
+// Mappings between M3 roles -> Zed tokens
+
+version 1
+
+layer "theme" {
+    accent apply="primary"
+
+    style {
+        // Core backgrounds and surfaces
+        background apply="surface background-opacity"
+        surface.background apply="surface-container background-opacity"
+        elevated_surface.background apply="surface-container background-opacity"
+
+        // Borders
+        border apply="surface-container-highest"
+        border.variant apply="outline-variant"
+        border.focused apply="secondary"
+        border.selected apply="primary"
+        border.disabled apply="outline"
+        border.transparent a=0.0
+
+        // General text and icons
+        text apply="on-surface"
+        text.muted apply="on-surface-variant"
+        text.placeholder apply="on-surface-variant"
+        text.disabled apply="on-surface-variant"
+        text.accent apply="primary"
+        icon apply="on-surface"
+        icon.muted apply="on-surface-variant"
+        icon.disabled apply="on-surface-variant"
+        icon.placeholder apply="on-surface-variant"
+        icon.accent apply="primary"
+        link_text.hover apply="primary"
+
+        // Standard interactive elements
+        element.background apply="primary-container" // Buttons
+        element.hover apply="primary-container low" // Hovering over a button
+        element.active apply="primary-container lowest"
+        element.selected apply="primary-container"
+        element.disabled apply="surface-container low"
+
+        // "Ghost" elements are typically lighter or borderless versions
+        ghost_element.background a=0.0
+        ghost_element.hover apply="surface-container low"
+        ghost_element.active apply="surface-container low"
+        ghost_element.selected apply="primary-container"
+        ghost_element.disabled apply="surface-container highest"
+
+        // Drop targets for drag-and-drop actions
+        drop_target.background apply="primary-container" a=0.5
+
+        // Scrollbars
+        scrollbar.thumb.background a=0.3 apply="outline"
+        scrollbar.thumb.hover_background apply="on-surface-variant"
+        scrollbar.thumb.border a=0.0
+        scrollbar.track.background a=0.0
+        scrollbar.track.border a=0.0
+
+        // Window Panels
+        title_bar.background apply="secondary-container background-opacity"
+        title_bar.inactive_background apply="surface-container-highest background-opacity"
+        toolbar.background apply="surface-container-high background-opacity"
+        status_bar.background apply="surface-container-highest background-opacity"
+        panel.background apply="surface-container-low background-opacity"
+
+        // Tabs
+        tab_bar.background apply="surface background-opacity"
+        tab.active_background apply="surface-container background-opacity"
+        tab.inactive_background apply="surface background-opacity"
+
+        // Core editor appearance
+        editor.foreground apply="on-surface"
+        editor.background apply="surface background-opacity"
+        editor.gutter.background apply="surface"
+        editor.subheader.background apply="surface"
+
+        // Line states
+        editor.active_line.background apply="surface-container background-opacity"
+        editor.highlighted_line.background apply="primary-container background-opacity"
+
+        // Line numbers
+        editor.line_number apply="on-surface-variant"
+        editor.active_line_number apply="on-surface"
+        editor.hover_line_number apply="on-surface"
+
+        // Guides and special characters
+        editor.invisible apply="on-surface-variant"
+        editor.wrap_guide apply="primary-container"
+        editor.active_wrap_guide apply="secondary-container"
+
+        // Highlights and search
+        editor.document_highlight.read_background a=0.1 apply="primary"
+        editor.document_highlight.write_background a=0.4 apply="primary"
+        search.match_background apply="tertiary-container"
+
+        // Base terminal colors
+        terminal.background apply="surface background-opacity"
+        terminal.foreground apply="on-surface"
+        terminal.bright_foreground apply="on-surface highest"
+        terminal.dim_foreground apply="on-surface lowest"
+
+        // ANSI Colors
+        terminal.ansi.black apply="on-surface"
+        terminal.ansi.bright_black apply="on-surface highlight"
+        terminal.ansi.dim_black apply="on-surface low"
+        terminal.ansi.red apply="secondary syntax-red-palette"
+        terminal.ansi.bright_red apply="secondary syntax-red-palette highlight"
+        terminal.ansi.dim_red apply="secondary syntax-red-palette low"
+        terminal.ansi.green apply="secondary syntax-green-palette"
+        terminal.ansi.bright_green apply="secondary syntax-green-palette highlight"
+        terminal.ansi.dim_green apply="secondary syntax-green-palette low"
+        terminal.ansi.yellow apply="secondary syntax-yellow-palette"
+        terminal.ansi.bright_yellow apply="secondary syntax-yellow-palette highlight"
+        terminal.ansi.dim_yellow apply="secondary syntax-yellow-palette low"
+        terminal.ansi.blue apply="secondary syntax-blue-palette"
+        terminal.ansi.bright_blue apply="secondary syntax-blue-palette highlight"
+        terminal.ansi.dim_blue apply="secondary syntax-blue-palette low"
+        terminal.ansi.magenta apply="secondary syntax-magenta-palette"
+        terminal.ansi.bright_magenta apply="secondary syntax-magenta-palette highlight"
+        terminal.ansi.dim_magenta apply="secondary syntax-magenta-palette low"
+        terminal.ansi.cyan apply="secondary syntax-cyan-palette"
+        terminal.ansi.bright_cyan apply="secondary syntax-cyan-palette highlight"
+        terminal.ansi.dim_cyan apply="secondary syntax-cyan-palette low"
+        terminal.ansi.white apply="on-surface"
+        terminal.ansi.bright_white apply="on-surface highlight"
+        terminal.ansi.dim_white apply="on-surface low"
+
+        // Version control (Git)
+        version_control.added apply="secondary syntax-green-palette"
+        version_control.modified apply="secondary syntax-yellow-palette"
+        version_control.deleted apply="secondary syntax-red-palette"
+        version_control.conflict_marker.ours a=0.1 apply="primary"
+        version_control.conflict_marker.theirs a=0.1 apply="tertiary"
+
+        // Generic states used across the UI (e.g., in file tree)
+        conflict apply="primary tertiary-palette"
+        conflict.background apply="on-primary tertiary-palette" a=0.1
+        conflict.border a=0
+        created apply="primary syntax-green-palette"
+        created.background apply="on-primary syntax-green-palette" a=0.1
+        created.border a=0
+        deleted apply="primary syntax-red-palette"
+        deleted.background apply="on-primary syntax-red-palette" a=0.1
+        deleted.border a=0
+        error apply="primary error-palette"
+        error.background apply="on-primary error-palette" a=0.1
+        error.border a=0
+        hidden apply="primary syntax-blue-palette"
+        hidden.background apply="on-primary syntax-blue-palette" a=0.1
+        hidden.border a=0
+        hint apply="primary primary-palette"
+        hint.background apply="on-primary primary-palette" a=0.1
+        hint.border a=0
+        ignored apply="primary"
+        ignored.background apply="on-primary" a=0.1
+        ignored.border a=0
+        info apply="primary info-palette"
+        info.background apply="on-primary info-palette" a=0.1
+        info.border a=0
+        modified apply="primary syntax-yellow-palette"
+        modified.background apply="on-primary syntax-yellow-palette" a=0.1
+        modified.border a=0
+        predictive apply="primary syntax-blue-palette"
+        predictive.background apply="on-primary syntax-blue-palette" a=0.1
+        predictive.border a=0
+        renamed apply="primary syntax-blue-palette"
+        renamed.background apply="on-primary syntax-blue-palette" a=0.1
+        renamed.border a=0
+        success apply="primary success-palette"
+        success.background apply="on-primary success-palette" a=0.1
+        success.border a=0
+        unreachable apply="primary"
+        unreachable.background apply="on-primary" a=0.1
+        unreachable.border a=0
+        warning apply="primary warning-palette"
+        warning.background apply="on-primary warning-palette" a=0.1
+        warning.border a=0
+    }
+
+    syntax {
+        // Highest visual weight elements
+        keyword apply="on-surface primary-palette accent"
+        variable.special {
+            color apply="on-surface tertiary-palette accent"
+            font_weight 700
+        }
+        function.builtin apply="on-surface secondary-palette accent"
+        type.builtin apply="on-surface secondary-palette accent"
+
+        // High visual weight elements
+        type apply="syntax-base tertiary-palette"
+        property apply="syntax-base tertiary-palette"
+        variable.member apply="syntax-base secondary-palette"
+        string apply="syntax-base tertiary-palette"
+        number apply="syntax-base tertiary-palette highlight"
+        boolean apply="syntax-base tertiary-palette accent"
+        constant.builtin apply="syntax-base tertiary-palette accent"
+
+        // Medium visual weight elements
+        //variable apply="syntax-base"
+        //variable.parameter apply="syntax-base"
+        function apply="syntax-base tertiary-palette"
+        //operator apply="syntax-base primary-palette"
+
+        // Low visual weight elements
+        comment apply="on-surface-variant"
+        comment.doc {
+            color apply="syntax-base secondary-palette"
+            font_style "italic"
+        }
+        punctuation apply="on-surface-variant"
+        punctuation.markup apply="on-surface-variant"
+        hint {
+            color apply="on-surface-variant" a=0.7
+            font_style "italic"
+            font_weight 300
+        }
+        predictive {
+            color apply="on-surface-variant" a=0.7
+            font_style "italic"
+            font_weight 300
+        }
+
+        // Other styles
+        markup.bold {
+            font_weight 700
+        }
+        emphasis {
+            font_style "italic"
+        }
+        title {
+            color apply="on-surface secondary-palette accent"
+            font_weight 700
+        }
+        markup.quote apply="on-surface-variant info-palette"
+        error apply="on-surface error-palette"
+    }
+
+    // This player
+    player {
+        cursor apply="primary"
+        background apply="primary"
+        selection apply="primary-container"
+    }
+
+    // Player 1
+    player {
+        cursor apply="primary player-1-palette"
+        background apply="primary player-1-palette"
+        selection apply="primary-container player-1-palette"
+    }
+
+    // Player 2
+    player {
+        cursor apply="primary player-2-palette"
+        background apply="primary player-2-palette"
+        selection apply="primary-container player-2-palette"
+    }
+
+    // Player 3
+    player {
+        cursor apply="primary player-3-palette"
+        background apply="primary player-3-palette"
+        selection apply="primary-container player-3-palette"
+    }
+
+    // Player 4
+    player {
+        cursor apply="primary player-4-palette"
+        background apply="primary player-4-palette"
+        selection apply="primary-container player-4-palette"
+    }
+
+    // Player 5
+    player {
+        cursor apply="primary player-5-palette"
+        background apply="primary player-5-palette"
+        selection apply="primary-container player-5-palette"
+    }
+
+    // Player 6
+    player {
+        cursor apply="primary player-6-palette"
+        background apply="primary player-6-palette"
+        selection apply="primary-container player-6-palette"
+    }
+
+    // Player 7
+    player {
+        cursor apply="primary player-7-palette"
+        background apply="primary player-7-palette"
+        selection apply="primary-container player-7-palette"
+    }
+
+    // Player 8
+    player {
+        cursor apply="primary player-8-palette"
+        background apply="primary player-8-palette"
+        selection apply="primary-container player-8-palette"
+    }
+}

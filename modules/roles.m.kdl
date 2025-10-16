@@ -1,0 +1,456 @@
+// This file contains all of the different colour roles, like "primary".
+// Contains light and dark theme colour roles, and 3 levels of contrast
+// for each one.
+//
+// Based on https://m3.material.io/styles/color/roles
+
+version 1
+
+// Active + hover states
+
+layer "m3-ext-light" {
+    // Standard light theme: emphasis makes the colour darker.
+    token "highest" t="+12"
+    token "lowest" t="-12"
+    token "low" t="-8"
+
+    token "highlight" c="+40" t="+20"
+    token "accent" c="+60" t="+30"
+}
+
+layer "m3-ext-light-hicontrast" {
+    // High-contrast light theme: emphasis has a stronger tonal shift.
+    token "highest" t="+18"
+    token "lowest" t="-18"
+    token "low" t="-12"
+
+    token "highlight" c="+50" t="+10"
+    token "accent" c="+70" t="+20"
+}
+
+layer "m3-ext-dark" {
+    // Standard dark theme: emphasis makes the colour lighter.
+    token "highest" t="-12"
+    token "lowest" t="+12"
+    token "low" t="+8"
+
+    token "highlight" c="+30" t="-5"
+    token "accent" c="+50" t="-10"
+}
+
+layer "m3-ext-dark-hicontrast" {
+    // High-contrast dark theme: emphasis has a stronger tonal shift.
+    token "highest" t="-18"
+    token "lowest" t="+18"
+    token "low" t="+12"
+
+    token "highlight" c="+50" t="-5"
+    token "accent" c="+70" t="-10"
+}
+
+// Light theme roles
+
+layer "m3-roles-light-standard" {
+    // Accent colours
+    token "primary"                   apply="primary-palette"         t=40
+    token "on-primary"                apply="primary-palette"         t=100
+    token "primary-container"         apply="primary-palette"         t=90
+    token "on-primary-container"      apply="primary-palette"         t=10
+    token "secondary"                 apply="secondary-palette"       t=40
+    token "on-secondary"              apply="secondary-palette"       t=100
+    token "secondary-container"       apply="secondary-palette"       t=90
+    token "on-secondary-container"    apply="secondary-palette"       t=10
+    token "tertiary"                  apply="tertiary-palette"        t=40
+    token "on-tertiary"               apply="tertiary-palette"        t=100
+    token "tertiary-container"        apply="tertiary-palette"        t=90
+    token "on-tertiary-container"     apply="tertiary-palette"        t=10
+
+    // Error colours
+    token "error"                     apply="error-palette"           t=40
+    token "on-error"                  apply="error-palette"           t=100
+    token "error-container"           apply="error-palette"           t=90
+    token "on-error-container"        apply="error-palette"           t=10
+
+    // Custom semantic colours
+    token "success"                   apply="success-palette"         t=40
+    token "on-success"                apply="success-palette"         t=100
+    token "success-container"         apply="success-palette"         t=90
+    token "on-success-container"      apply="success-palette"         t=10
+    token "warning"                   apply="warning-palette"         t=40
+    token "on-warning"                apply="warning-palette"         t=100
+    token "warning-container"         apply="warning-palette"         t=90
+    token "on-warning-container"      apply="warning-palette"         t=10
+    token "info"                      apply="info-palette"            t=40
+    token "on-info"                   apply="info-palette"            t=100
+    token "info-container"            apply="info-palette"            t=90
+    token "on-info-container"         apply="info-palette"            t=10
+
+    // Surface & background colours
+    token "background"                apply="neutral-palette"         t=99
+    token "on-background"             apply="neutral-palette"         t=10
+    token "surface"                   apply="neutral-palette"         t=99
+    token "on-surface"                apply="neutral-palette"         t=10
+    token "syntax-base"               apply="neutral-palette"         t=35 c="+20"
+    token "surface-variant"           apply="neutral-variant-palette" t=90
+    token "on-surface-variant"        apply="neutral-variant-palette" t=30
+    token "surface-dim"               apply="neutral-palette"         t=87
+    token "surface-bright"            apply="neutral-palette"         t=98
+    token "surface-container-lowest"  apply="neutral-palette"         t=100
+    token "surface-container-low"     apply="neutral-palette"         t=96
+    token "surface-container"         apply="neutral-palette"         t=94
+    token "surface-container-high"    apply="neutral-palette"         t=92
+    token "surface-container-highest" apply="neutral-palette"         t=90
+
+    // Utility & overlay colours
+    token "outline"                   apply="neutral-variant-palette" t=50
+    token "outline-variant"           apply="neutral-variant-palette" t=80
+    token "shadow"                    apply="neutral-palette"         t=0
+    token "scrim"                     apply="neutral-palette"         t=0
+
+    // Inverse colours (for dark elements on a light surface)
+    token "inverse-surface"           apply="neutral-palette"         t=20
+    token "inverse-on-surface"        apply="neutral-palette"         t=95
+    token "inverse-primary"           apply="primary-palette"         t=80
+
+    // Player colours
+    token "player-cursor"             t=50
+    token "player-selection"          t=90
+}
+
+layer "m3-roles-light-medium-contrast" {
+    // Accent colours
+    token "primary"                   apply="primary-palette"         t=40
+    token "on-primary"                apply="primary-palette"         t=100
+    token "primary-container"         apply="primary-palette"         t=90
+    token "on-primary-container"      apply="primary-palette"         t=5
+    token "secondary"                 apply="secondary-palette"       t=40
+    token "on-secondary"              apply="secondary-palette"       t=100
+    token "secondary-container"       apply="secondary-palette"       t=90
+    token "on-secondary-container"    apply="secondary-palette"       t=5
+    token "tertiary"                  apply="tertiary-palette"        t=40
+    token "on-tertiary"               apply="tertiary-palette"        t=100
+    token "tertiary-container"        apply="tertiary-palette"        t=90
+    token "on-tertiary-container"     apply="tertiary-palette"        t=5
+
+    // Error colours
+    token "error"                     apply="error-palette"           t=40
+    token "on-error"                  apply="error-palette"           t=100
+    token "error-container"           apply="error-palette"           t=90
+    token "on-error-container"        apply="error-palette"           t=5
+
+    // Custom semantic colours
+    token "success"                   apply="success-palette"         t=40
+    token "on-success"                apply="success-palette"         t=100
+    token "success-container"         apply="success-palette"         t=90
+    token "on-success-container"      apply="success-palette"         t=5
+    token "warning"                   apply="warning-palette"         t=40
+    token "on-warning"                apply="warning-palette"         t=100
+    token "warning-container"         apply="warning-palette"         t=90
+    token "on-warning-container"      apply="warning-palette"         t=5
+    token "info"                      apply="info-palette"            t=40
+    token "on-info"                   apply="info-palette"            t=100
+    token "info-container"            apply="info-palette"            t=90
+    token "on-info-container"         apply="info-palette"            t=5
+
+    // Surface & background colours
+    token "background"                apply="neutral-palette"         t=99
+    token "on-background"             apply="neutral-palette"         t=10
+    token "surface"                   apply="neutral-palette"         t=99
+    token "on-surface"                apply="neutral-palette"         t=10
+    token "syntax-base"               apply="neutral-palette"         t=30 c="+25"
+    token "surface-variant"           apply="neutral-variant-palette" t=90
+    token "on-surface-variant"        apply="neutral-variant-palette" t=25
+    token "surface-dim"               apply="neutral-palette"         t=87
+    token "surface-bright"            apply="neutral-palette"         t=98
+    token "surface-container-lowest"  apply="neutral-palette"         t=100
+    token "surface-container-low"     apply="neutral-palette"         t=96
+    token "surface-container"         apply="neutral-palette"         t=94
+    token "surface-container-high"    apply="neutral-palette"         t=92
+    token "surface-container-highest" apply="neutral-palette"         t=90
+
+    // Utility & overlay colours
+    token "outline"                   apply="neutral-variant-palette" t=45
+    token "outline-variant"           apply="neutral-variant-palette" t=80
+    token "shadow"                    apply="neutral-palette"         t=0
+    token "scrim"                     apply="neutral-palette"         t=0
+
+    // Inverse colours
+    token "inverse-surface"           apply="neutral-palette"         t=20
+    token "inverse-on-surface"        apply="neutral-palette"         t=95
+    token "inverse-primary"           apply="primary-palette"         t=80
+
+    // Player colours
+    token "player-cursor"             t=50
+    token "player-selection"          t=90
+}
+
+layer "m3-roles-light-high-contrast" {
+    // Accent colours
+    token "primary"                   apply="primary-palette"         t=30
+    token "on-primary"                apply="primary-palette"         t=100
+    token "primary-container"         apply="primary-palette"         t=90
+    token "on-primary-container"      apply="primary-palette"         t=0
+    token "secondary"                 apply="secondary-palette"       t=30
+    token "on-secondary"              apply="secondary-palette"       t=100
+    token "secondary-container"       apply="secondary-palette"       t=90
+    token "on-secondary-container"    apply="secondary-palette"       t=0
+    token "tertiary"                  apply="tertiary-palette"        t=30
+    token "on-tertiary"               apply="tertiary-palette"        t=100
+    token "tertiary-container"        apply="tertiary-palette"        t=90
+    token "on-tertiary-container"     apply="tertiary-palette"        t=0
+
+    // Error colours
+    token "error"                     apply="error-palette"           t=30
+    token "on-error"                  apply="error-palette"           t=100
+    token "error-container"           apply="error-palette"           t=90
+    token "on-error-container"        apply="error-palette"           t=0
+
+    // Custom semantic colours
+    token "success"                   apply="success-palette"         t=30
+    token "on-success"                apply="success-palette"         t=100
+    token "success-container"         apply="success-palette"         t=90
+    token "on-success-container"      apply="success-palette"         t=0
+    token "warning"                   apply="warning-palette"         t=30
+    token "on-warning"                apply="warning-palette"         t=100
+    token "warning-container"         apply="warning-palette"         t=90
+    token "on-warning-container"      apply="warning-palette"         t=0
+    token "info"                      apply="info-palette"            t=30
+    token "on-info"                   apply="info-palette"            t=100
+    token "info-container"            apply="info-palette"            t=90
+    token "on-info-container"         apply="info-palette"            t=0
+
+    // Surface & background colours
+    token "background"                apply="neutral-palette"         t=99
+    token "on-background"             apply="neutral-palette"         t=0
+    token "surface"                   apply="neutral-palette"         t=99
+    token "on-surface"                apply="neutral-palette"         t=0
+    token "syntax-base"               apply="neutral-palette"         t=25 c="+30"
+    token "surface-variant"           apply="neutral-variant-palette" t=90
+    token "on-surface-variant"        apply="neutral-variant-palette" t=20
+    token "surface-dim"               apply="neutral-palette"         t=87
+    token "surface-bright"            apply="neutral-palette"         t=98
+    token "surface-container-lowest"  apply="neutral-palette"         t=100
+    token "surface-container-low"     apply="neutral-palette"         t=96
+    token "surface-container"         apply="neutral-palette"         t=94
+    token "surface-container-high"    apply="neutral-palette"         t=92
+    token "surface-container-highest" apply="neutral-palette"         t=90
+
+    // Utility & overlay colours
+    token "outline"                   apply="neutral-variant-palette" t=40
+    token "outline-variant"           apply="neutral-variant-palette" t=80
+    token "shadow"                    apply="neutral-palette"         t=0
+    token "scrim"                     apply="neutral-palette"         t=0
+
+    // Inverse colours
+    token "inverse-surface"           apply="neutral-palette"         t=20
+    token "inverse-on-surface"        apply="neutral-palette"         t=100
+    token "inverse-primary"           apply="primary-palette"         t=80
+
+    // Player colours
+    token "player-cursor"             t=40
+    token "player-selection"          t=90
+}
+
+
+// Dark theme roles
+
+layer "m3-roles-dark-standard" {
+    // Accent colours
+    token "primary"                   apply="primary-palette"         t=80
+    token "on-primary"                apply="primary-palette"         t=20
+    token "primary-container"         apply="primary-palette"         t=30
+    token "on-primary-container"      apply="primary-palette"         t=90
+    token "secondary"                 apply="secondary-palette"       t=80
+    token "on-secondary"              apply="secondary-palette"       t=20
+    token "secondary-container"       apply="secondary-palette"       t=30
+    token "on-secondary-container"    apply="secondary-palette"       t=90
+    token "tertiary"                  apply="tertiary-palette"        t=80
+    token "on-tertiary"               apply="tertiary-palette"        t=20
+    token "tertiary-container"        apply="tertiary-palette"        t=30
+    token "on-tertiary-container"     apply="tertiary-palette"        t=90
+
+    // Error colours
+    token "error"                     apply="error-palette"           t=80
+    token "on-error"                  apply="error-palette"           t=20
+    token "error-container"           apply="error-palette"           t=30
+    token "on-error-container"        apply="error-palette"           t=90
+
+    // Custom semantic colours
+    token "success"                   apply="success-palette"         t=80
+    token "on-success"                apply="success-palette"         t=20
+    token "success-container"         apply="success-palette"         t=30
+    token "on-success-container"      apply="success-palette"         t=90
+    token "warning"                   apply="warning-palette"         t=80
+    token "on-warning"                apply="warning-palette"         t=20
+    token "warning-container"         apply="warning-palette"         t=30
+    token "on-warning-container"      apply="warning-palette"         t=90
+    token "info"                      apply="info-palette"            t=80
+    token "on-info"                   apply="info-palette"            t=20
+    token "info-container"            apply="info-palette"            t=30
+    token "on-info-container"         apply="info-palette"            t=90
+
+    // Surface & background colours
+    token "background"                apply="neutral-palette"         t=10
+    token "on-background"             apply="neutral-palette"         t=90
+    token "surface"                   apply="neutral-palette"         t=10
+    token "on-surface"                apply="neutral-palette"         t=90
+    token "syntax-base"               apply="neutral-palette"         t=75 c="+20"
+    token "surface-variant"           apply="neutral-variant-palette" t=30
+    token "on-surface-variant"        apply="neutral-variant-palette" t=80
+    token "surface-dim"               apply="neutral-palette"         t=6
+    token "surface-bright"            apply="neutral-palette"         t=24
+    token "surface-container-lowest"  apply="neutral-palette"         t=4
+    token "surface-container-low"     apply="neutral-palette"         t=10
+    token "surface-container"         apply="neutral-palette"         t=12
+    token "surface-container-high"    apply="neutral-palette"         t=17
+    token "surface-container-highest" apply="neutral-palette"         t=22
+
+    // Utility & overlay colours
+    token "outline"                   apply="neutral-variant-palette" t=60
+    token "outline-variant"           apply="neutral-variant-palette" t=30
+    token "shadow"                    apply="neutral-palette"         t=0
+    token "scrim"                     apply="neutral-palette"         t=0
+
+    // Inverse colours (for light elements on a dark surface)
+    token "inverse-surface"           apply="neutral-palette"         t=90
+    token "inverse-on-surface"        apply="neutral-palette"         t=20
+    token "inverse-primary"           apply="primary-palette"         t=40
+
+    // Player colours
+    token "player-cursor"             t=70
+    token "player-selection"          t=30
+}
+
+layer "m3-roles-dark-medium-contrast" {
+    // Accent colours
+    token "primary"                   apply="primary-palette"         t=80
+    token "on-primary"                apply="primary-palette"         t=15
+    token "primary-container"         apply="primary-palette"         t=30
+    token "on-primary-container"      apply="primary-palette"         t=95
+    token "secondary"                 apply="secondary-palette"       t=80
+    token "on-secondary"              apply="secondary-palette"       t=15
+    token "secondary-container"       apply="secondary-palette"       t=30
+    token "on-secondary-container"    apply="secondary-palette"       t=95
+    token "tertiary"                  apply="tertiary-palette"        t=80
+    token "on-tertiary"               apply="tertiary-palette"        t=15
+    token "tertiary-container"        apply="tertiary-palette"        t=30
+    token "on-tertiary-container"     apply="tertiary-palette"        t=95
+
+    // Error colours
+    token "error"                     apply="error-palette"           t=80
+    token "on-error"                  apply="error-palette"           t=15
+    token "error-container"           apply="error-palette"           t=30
+    token "on-error-container"        apply="error-palette"           t=95
+
+    // Custom semantic colours
+    token "success"                   apply="success-palette"         t=80
+    token "on-success"                apply="success-palette"         t=15
+    token "success-container"         apply="success-palette"         t=30
+    token "on-success-container"      apply="success-palette"         t=95
+    token "warning"                   apply="warning-palette"         t=80
+    token "on-warning"                apply="warning-palette"         t=15
+    token "warning-container"         apply="warning-palette"         t=30
+    token "on-warning-container"      apply="warning-palette"         t=95
+    token "info"                      apply="info-palette"            t=80
+    token "on-info"                   apply="info-palette"            t=15
+    token "info-container"            apply="info-palette"            t=30
+    token "on-info-container"         apply="info-palette"            t=95
+
+    // Surface & background colours
+    token "background"                apply="neutral-palette"         t=10
+    token "on-background"             apply="neutral-palette"         t=95
+    token "surface"                   apply="neutral-palette"         t=10
+    token "on-surface"                apply="neutral-palette"         t=95
+    token "syntax-base"               apply="neutral-palette"         t=80 c="+25"
+    token "surface-variant"           apply="neutral-variant-palette" t=30
+    token "on-surface-variant"        apply="neutral-variant-palette" t=85
+    token "surface-dim"               apply="neutral-palette"         t=6
+    token "surface-bright"            apply="neutral-palette"         t=24
+    token "surface-container-lowest"  apply="neutral-palette"         t=4
+    token "surface-container-low"     apply="neutral-palette"         t=10
+    token "surface-container"         apply="neutral-palette"         t=12
+    token "surface-container-high"    apply="neutral-palette"         t=17
+    token "surface-container-highest" apply="neutral-palette"         t=22
+
+    // Utility & overlay colours
+    token "outline"                   apply="neutral-variant-palette" t=65
+    token "outline-variant"           apply="neutral-variant-palette" t=30
+    token "shadow"                    apply="neutral-palette"         t=0
+    token "scrim"                     apply="neutral-palette"         t=0
+
+    // Inverse colours
+    token "inverse-surface"           apply="neutral-palette"         t=90
+    token "inverse-on-surface"        apply="neutral-palette"         t=15
+    token "inverse-primary"           apply="primary-palette"         t=40
+
+    // Player colours
+    token "player-cursor"             t=70
+    token "player-selection"          t=30
+}
+
+layer "m3-roles-dark-high-contrast" {
+    // Accent colours
+    token "primary"                   apply="primary-palette"         t=90
+    token "on-primary"                apply="primary-palette"         t=10
+    token "primary-container"         apply="primary-palette"         t=30
+    token "on-primary-container"      apply="primary-palette"         t=100
+    token "secondary"                 apply="secondary-palette"       t=90
+    token "on-secondary"              apply="secondary-palette"       t=10
+    token "secondary-container"       apply="secondary-palette"       t=30
+    token "on-secondary-container"    apply="secondary-palette"       t=100
+    token "tertiary"                  apply="tertiary-palette"        t=90
+    token "on-tertiary"               apply="tertiary-palette"        t=10
+    token "tertiary-container"        apply="tertiary-palette"        t=30
+    token "on-tertiary-container"     apply="tertiary-palette"        t=100
+
+    // Error colours
+    token "error"                     apply="error-palette"           t=90
+    token "on-error"                  apply="error-palette"           t=10
+    token "error-container"           apply="error-palette"           t=30
+    token "on-error-container"        apply="error-palette"           t=100
+
+    // Custom semantic colours
+    token "success"                   apply="success-palette"         t=90
+    token "on-success"                apply="success-palette"         t=10
+    token "success-container"         apply="success-palette"         t=30
+    token "on-success-container"      apply="success-palette"         t=100
+    token "warning"                   apply="warning-palette"         t=90
+    token "on-warning"                apply="warning-palette"         t=10
+    token "warning-container"         apply="warning-palette"         t=30
+    token "on-warning-container"      apply="warning-palette"         t=100
+    token "info"                      apply="info-palette"            t=90
+    token "on-info"                   apply="info-palette"            t=10
+    token "info-container"            apply="info-palette"            t=30
+    token "on-info-container"         apply="info-palette"            t=100
+
+    // Surface & background colours
+    token "background"                apply="neutral-palette"         t=10
+    token "on-background"             apply="neutral-palette"         t=100
+    token "surface"                   apply="neutral-palette"         t=10
+    token "on-surface"                apply="neutral-palette"         t=100
+    token "syntax-base"               apply="neutral-palette"         t=85 c="+30"
+    token "surface-variant"           apply="neutral-variant-palette" t=30
+    token "on-surface-variant"        apply="neutral-variant-palette" t=90
+    token "surface-dim"               apply="neutral-palette"         t=6
+    token "surface-bright"            apply="neutral-palette"         t=24
+    token "surface-container-lowest"  apply="neutral-palette"         t=4
+    token "surface-container-low"     apply="neutral-palette"         t=10
+    token "surface-container"         apply="neutral-palette"         t=12
+    token "surface-container-high"    apply="neutral-palette"         t=17
+    token "surface-container-highest" apply="neutral-palette"         t=22
+
+    // Utility & overlay colours
+    token "outline"                   apply="neutral-variant-palette" t=70
+    token "outline-variant"           apply="neutral-variant-palette" t=30
+    token "shadow"                    apply="neutral-palette"         t=0
+    token "scrim"                     apply="neutral-palette"         t=0
+
+    // Inverse colours
+    token "inverse-surface"           apply="neutral-palette"         t=95
+    token "inverse-on-surface"        apply="neutral-palette"         t=10
+    token "inverse-primary"           apply="primary-palette"         t=40
+
+    // Player colours
+    token "player-cursor"             t=80
+    token "player-selection"          t=30
+}

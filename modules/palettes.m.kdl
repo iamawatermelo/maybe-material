@@ -1,0 +1,51 @@
+// **This file is not used.** See gen/harmonized.m.kdl
+
+version 1
+
+layer "m3-base-palettes" {
+    token "seed" h=0
+    token "tertiary" h=230
+    
+    // The main accent colour of the theme.
+    token "primary-palette" apply="seed" c=50
+
+    // An adjacent accent colour that's a bit different
+    token "primary-variant-palette" apply="primary-palette" h="+10"
+    
+    // A secondary accent colour.
+    token "secondary-palette" apply="seed" c=20
+
+    // A tertiary, contrasting accent colour.
+    token "tertiary-palette" apply="tertiary" h=230 c=30
+
+    // Used for general UI surfaces like backgrounds and cards.
+    token "neutral-palette" apply="seed" c=5
+
+    // Used for UI elements that need to be subtly different from the main surface.
+    token "neutral-variant-palette" apply="seed" c=10
+
+    // Used for error states.
+    token "error-palette" h=20 c=80
+
+    // Semantic palettes
+    token "success-palette" h=140 c=40
+    token "warning-palette" h=90  c=50
+    token "info-palette"    h=240 c=40
+
+    // Syntax palettes
+    token "syntax-green-palette"    h=140 c=30
+    token "syntax-yellow-palette"   h=90  c=30
+    token "syntax-blue-palette"     h=240 c=30
+    token "syntax-cyan-palette"     h=190 c=30
+    token "syntax-magenta-palette"  h=320 c=30
+
+    // Player palettes (for collaboration)
+    token "player-1-palette" h=25  c=50 // Orange
+    token "player-2-palette" h=60  c=50 // Yellow
+    token "player-3-palette" h=140 c=50 // Green
+    token "player-4-palette" h=190 c=50 // Cyan
+    token "player-5-palette" h=240 c=50 // Blue
+    token "player-6-palette" h=280 c=50 // Purple
+    token "player-7-palette" h=320 c=50 // Magenta
+    token "player-8-palette" h=0   c=50 // Red
+}

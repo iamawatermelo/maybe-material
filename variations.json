@@ -1,0 +1,32 @@
+{
+  "red": {
+    "names": ["Sunrise", "Sunset"],
+    "root": 30,
+    "tertiary": 90
+  },
+  "yellow": {
+    "names": ["Honey", "Amber"],
+    "root": 90,
+    "tertiary": 20
+  },
+  "green": {
+    "names": ["Mint", "Jade"],
+    "root": 150,
+    "tertiary": 20
+  },
+  "blue": {
+    "names": ["Workspace", "Blueprint"],
+    "root": 230,
+    "tertiary": 150
+  },
+  "magenta": {
+    "names": ["Lavender", "Amethyst"],
+    "root": 320,
+    "tertiary": 190
+  },
+  "cyan": {
+    "names": ["Valerate", "Cypionate"],
+    "root": 190,
+    "tertiary": 320
+  }
+}

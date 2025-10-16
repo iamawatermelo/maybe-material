@@ -1,0 +1,74 @@
+{
+  "error-palette": {
+    "h": 20,
+    "c": 80
+  },
+  "success-palette": {
+    "h": 140,
+    "c": 40
+  },
+  "warning-palette": {
+    "h": 90,
+    "c": 50
+  },
+  "info-palette": {
+    "h": 240,
+    "c": 40
+  },
+  "syntax-red-palette": {
+    "h": 15,
+    "c": 80
+  },
+  "syntax-green-palette": {
+    "h": 140,
+    "c": 80
+  },
+  "syntax-yellow-palette": {
+    "h": 90,
+    "c": 85
+  },
+  "syntax-blue-palette": {
+    "h": 250,
+    "c": 85
+  },
+  "syntax-magenta-palette": {
+    "h": 320,
+    "c": 80
+  },
+  "syntax-cyan-palette": {
+    "h": 190,
+    "c": 80
+  },
+  "player-1-palette": {
+    "h": 25,
+    "c": 50
+  },
+  "player-2-palette": {
+    "h": 60,
+    "c": 50
+  },
+  "player-3-palette": {
+    "h": 140,
+    "c": 50
+  },
+  "player-4-palette": {
+    "h": 190,
+    "c": 50
+  },
+  "player-5-palette": {
+    "h": 240,
+    "c": 50
+  },
+  "player-6-palette": {
+    "h": 280,
+    "c": 50
+  },
+  "player-7-palette": {
+    "h": 320,
+    "c": 50
+  },
+  "player-8-palette": {
+    "h": 0,
+    "c": 50
+  }
+}

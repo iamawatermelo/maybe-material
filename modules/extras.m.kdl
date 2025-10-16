@@ -1,0 +1,15 @@
+// Transparency and blur for the two perverts that enjoy that kind of stuff.
+
+version 1
+
+layer "bg-opaque" {
+    token "background-opacity" a=1
+}
+
+layer "bg-blur" {
+    token "background-opacity" a=0.8
+}
+
+layer "bg-transparent" {
+    token "background-opacity" a=0.8
+}
