@@ -22,6 +22,7 @@ Either:
 
 - Install Maybe Material from the Zed extension store.
 - Install this repository as an extension.
+- Move [themes/maybe-material.json](./themes/maybe-material.json) into your [Zed themes folder](https://zed.dev/docs/themes#local-themes).
 
 ## Themes
 
