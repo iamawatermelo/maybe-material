@@ -7,11 +7,11 @@
 Version 2 of my [Not Material theme](https://zed.dev/extensions/not-material-theme) that makes heavy use of the HCT colour
 space to create pleasing, harmonious and accessible themes.
 
-![Cypionate Standard theme](cypionate-standard.png)
-_**Cypionate.** Pretty, Material-inspired themes._
-
 ![Sunset Standard theme](sunset-standard.png)
-_**Sunset.** One of six different colours._
+_**Sunset.** Pretty, Material-inspired themes._
+
+![Amethyst Standard theme](cypionate-standard.png)
+_**Amethyst.** One of six different colours._
 
 ![Honey Standard theme](honey-standard.png)
 _**Honey.** With light and dark, high contrast and low contrast, opaque, transparent or blurred, there's a theme for everyone._
