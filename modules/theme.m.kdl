@@ -200,6 +200,7 @@ layer "theme" {
         //variable apply="syntax-base"
         //variable.parameter apply="syntax-base"
         function apply="syntax-base tertiary-palette"
+        text.literal apply="syntax-base"
         //operator apply="syntax-base primary-palette"
 
         // Low visual weight elements
@@ -234,6 +235,8 @@ layer "theme" {
         }
         markup.quote apply="on-surface-variant info-palette"
         error apply="on-surface error-palette"
+        link_text apply="syntax-base"
+        link_uri apply="syntax-base tertiary-palette"
     }
 
     // This player

@@ -3,5 +3,5 @@ name = "Maybe Material Theme"
 version = "0.0.1"
 schema_version = 1
 authors = ["github.com/iamawatermelo"]
-description = "🩷 Curated vibrant and harmonious themes in various colors, schemes and contrast options. It's like Not Material's older sister."
+description = "🩷 Curated vibrant and harmonious themes in various colors, schemes and contrast options."
 repository = "https://github.com/iamawatermelo/maybe-material"
