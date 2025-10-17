@@ -43,7 +43,7 @@ And, there are six colours:
 - 🌇 Red - Sunrise and Sunset
 - 🍯 Yellow - Honey and Amber
 - 🌿 Green - Mint and Jade
-- 📐 Blue - Workspace and Blueprint
+- 👔 Blue - Workspace and Blueprint
 - 🪻 Purple - Lavender and Amethyst
 - 🩵 Cyan - Valerate and Cypionate
 
