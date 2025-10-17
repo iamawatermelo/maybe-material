@@ -4,7 +4,7 @@
 > 
 > Red, yellow, green, blue, purple, cyan. Light and dark, two contrast options, three background options. 72 variations in total.
 >
-> [Install latest version - v0.1.0](zed://extension/not-material-theme-v2)
+> [Install latest version - v0.1.0](https://zed.dev/extensions/not-material-theme-v2)
 
 Version 2 of my [Not Material theme](https://zed.dev/extensions/not-material-theme) that makes heavy use of the HCT colour
 space to create pleasing, harmonious and accessible themes.
@@ -22,7 +22,7 @@ _**Honey.** With light and dark, high contrast and low contrast, opaque, transpa
 
 Either:
 
-- [Install Maybe Material from the Zed extension store.](zed://extension/not-material-theme-v2)
+- [Install Maybe Material from the Zed extension store.](https://zed.dev/extensions/not-material-theme)
 - [Install this repository as a dev extension.](https://zed.dev/docs/extensions/developing-extensions#developing-an-extension-locally)
 - Move [themes/maybe-material.json](./themes/maybe-material.json) into your [Zed themes folder](https://zed.dev/docs/themes#local-themes).
 
