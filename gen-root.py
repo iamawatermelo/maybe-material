@@ -23,7 +23,7 @@ author "github.com/iamawatermelo"
 
 for color, variation in variations.items():
     for (scheme, contrast, background) in itertools.product(
-        ["light", "dark"],
+        ["dark", "light"],
         ["standard", "high"],  # "medium",
         ["opaque", "transparent", "blurred"]
     ):

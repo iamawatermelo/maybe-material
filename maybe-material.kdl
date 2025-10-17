@@ -14,72 +14,6 @@ name "Maybe Material"
 author "github.com/iamawatermelo"
 
 
-variant "Maybe Material Sunrise" {
-    background "opaque"
-    appearance "light"
-    
-    layer "m3-palette-red"
-    layer "m3-roles-light-standard"
-    layer "m3-ext-light"
-    layer "bg-opaque"
-    layer "theme"
-}
-
-variant "Maybe Material [Transparent] Sunrise" {
-    background "transparent"
-    appearance "light"
-    
-    layer "m3-palette-red"
-    layer "m3-roles-light-standard"
-    layer "m3-ext-light"
-    layer "bg-transparent"
-    layer "theme"
-}
-
-variant "Maybe Material [Blurred] Sunrise" {
-    background "blurred"
-    appearance "light"
-    
-    layer "m3-palette-red"
-    layer "m3-roles-light-standard"
-    layer "m3-ext-light"
-    layer "bg-blurred"
-    layer "theme"
-}
-
-variant "Maybe Material Sunrise (High)" {
-    background "opaque"
-    appearance "light"
-    
-    layer "m3-palette-red"
-    layer "m3-roles-light-high-contrast"
-    layer "m3-ext-light-hicontrast"
-    layer "bg-opaque"
-    layer "theme"
-}
-
-variant "Maybe Material [Transparent] Sunrise (High)" {
-    background "transparent"
-    appearance "light"
-    
-    layer "m3-palette-red"
-    layer "m3-roles-light-high-contrast"
-    layer "m3-ext-light-hicontrast"
-    layer "bg-transparent"
-    layer "theme"
-}
-
-variant "Maybe Material [Blurred] Sunrise (High)" {
-    background "blurred"
-    appearance "light"
-    
-    layer "m3-palette-red"
-    layer "m3-roles-light-high-contrast"
-    layer "m3-ext-light-hicontrast"
-    layer "bg-blurred"
-    layer "theme"
-}
-
 variant "Maybe Material Sunset" {
     background "opaque"
     appearance "dark"
@@ -146,66 +80,66 @@ variant "Maybe Material [Blurred] Sunset (High)" {
     layer "theme"
 }
 
-variant "Maybe Material Honey" {
+variant "Maybe Material Sunrise" {
     background "opaque"
     appearance "light"
     
-    layer "m3-palette-yellow"
+    layer "m3-palette-red"
     layer "m3-roles-light-standard"
     layer "m3-ext-light"
     layer "bg-opaque"
     layer "theme"
 }
 
-variant "Maybe Material [Transparent] Honey" {
+variant "Maybe Material [Transparent] Sunrise" {
     background "transparent"
     appearance "light"
     
-    layer "m3-palette-yellow"
+    layer "m3-palette-red"
     layer "m3-roles-light-standard"
     layer "m3-ext-light"
     layer "bg-transparent"
     layer "theme"
 }
 
-variant "Maybe Material [Blurred] Honey" {
+variant "Maybe Material [Blurred] Sunrise" {
     background "blurred"
     appearance "light"
     
-    layer "m3-palette-yellow"
+    layer "m3-palette-red"
     layer "m3-roles-light-standard"
     layer "m3-ext-light"
     layer "bg-blurred"
     layer "theme"
 }
 
-variant "Maybe Material Honey (High)" {
+variant "Maybe Material Sunrise (High)" {
     background "opaque"
     appearance "light"
     
-    layer "m3-palette-yellow"
+    layer "m3-palette-red"
     layer "m3-roles-light-high-contrast"
     layer "m3-ext-light-hicontrast"
     layer "bg-opaque"
     layer "theme"
 }
 
-variant "Maybe Material [Transparent] Honey (High)" {
+variant "Maybe Material [Transparent] Sunrise (High)" {
     background "transparent"
     appearance "light"
     
-    layer "m3-palette-yellow"
+    layer "m3-palette-red"
     layer "m3-roles-light-high-contrast"
     layer "m3-ext-light-hicontrast"
     layer "bg-transparent"
     layer "theme"
 }
 
-variant "Maybe Material [Blurred] Honey (High)" {
+variant "Maybe Material [Blurred] Sunrise (High)" {
     background "blurred"
     appearance "light"
     
-    layer "m3-palette-yellow"
+    layer "m3-palette-red"
     layer "m3-roles-light-high-contrast"
     layer "m3-ext-light-hicontrast"
     layer "bg-blurred"
@@ -278,66 +212,66 @@ variant "Maybe Material [Blurred] Amber (High)" {
     layer "theme"
 }
 
-variant "Maybe Material Mint" {
+variant "Maybe Material Honey" {
     background "opaque"
     appearance "light"
     
-    layer "m3-palette-green"
+    layer "m3-palette-yellow"
     layer "m3-roles-light-standard"
     layer "m3-ext-light"
     layer "bg-opaque"
     layer "theme"
 }
 
-variant "Maybe Material [Transparent] Mint" {
+variant "Maybe Material [Transparent] Honey" {
     background "transparent"
     appearance "light"
     
-    layer "m3-palette-green"
+    layer "m3-palette-yellow"
     layer "m3-roles-light-standard"
     layer "m3-ext-light"
     layer "bg-transparent"
     layer "theme"
 }
 
-variant "Maybe Material [Blurred] Mint" {
+variant "Maybe Material [Blurred] Honey" {
     background "blurred"
     appearance "light"
     
-    layer "m3-palette-green"
+    layer "m3-palette-yellow"
     layer "m3-roles-light-standard"
     layer "m3-ext-light"
     layer "bg-blurred"
     layer "theme"
 }
 
-variant "Maybe Material Mint (High)" {
+variant "Maybe Material Honey (High)" {
     background "opaque"
     appearance "light"
     
-    layer "m3-palette-green"
+    layer "m3-palette-yellow"
     layer "m3-roles-light-high-contrast"
     layer "m3-ext-light-hicontrast"
     layer "bg-opaque"
     layer "theme"
 }
 
-variant "Maybe Material [Transparent] Mint (High)" {
+variant "Maybe Material [Transparent] Honey (High)" {
     background "transparent"
     appearance "light"
     
-    layer "m3-palette-green"
+    layer "m3-palette-yellow"
     layer "m3-roles-light-high-contrast"
     layer "m3-ext-light-hicontrast"
     layer "bg-transparent"
     layer "theme"
 }
 
-variant "Maybe Material [Blurred] Mint (High)" {
+variant "Maybe Material [Blurred] Honey (High)" {
     background "blurred"
     appearance "light"
     
-    layer "m3-palette-green"
+    layer "m3-palette-yellow"
     layer "m3-roles-light-high-contrast"
     layer "m3-ext-light-hicontrast"
     layer "bg-blurred"
@@ -410,66 +344,66 @@ variant "Maybe Material [Blurred] Jade (High)" {
     layer "theme"
 }
 
-variant "Maybe Material Workspace" {
+variant "Maybe Material Mint" {
     background "opaque"
     appearance "light"
     
-    layer "m3-palette-blue"
+    layer "m3-palette-green"
     layer "m3-roles-light-standard"
     layer "m3-ext-light"
     layer "bg-opaque"
     layer "theme"
 }
 
-variant "Maybe Material [Transparent] Workspace" {
+variant "Maybe Material [Transparent] Mint" {
     background "transparent"
     appearance "light"
     
-    layer "m3-palette-blue"
+    layer "m3-palette-green"
     layer "m3-roles-light-standard"
     layer "m3-ext-light"
     layer "bg-transparent"
     layer "theme"
 }
 
-variant "Maybe Material [Blurred] Workspace" {
+variant "Maybe Material [Blurred] Mint" {
     background "blurred"
     appearance "light"
     
-    layer "m3-palette-blue"
+    layer "m3-palette-green"
     layer "m3-roles-light-standard"
     layer "m3-ext-light"
     layer "bg-blurred"
     layer "theme"
 }
 
-variant "Maybe Material Workspace (High)" {
+variant "Maybe Material Mint (High)" {
     background "opaque"
     appearance "light"
     
-    layer "m3-palette-blue"
+    layer "m3-palette-green"
     layer "m3-roles-light-high-contrast"
     layer "m3-ext-light-hicontrast"
     layer "bg-opaque"
     layer "theme"
 }
 
-variant "Maybe Material [Transparent] Workspace (High)" {
+variant "Maybe Material [Transparent] Mint (High)" {
     background "transparent"
     appearance "light"
     
-    layer "m3-palette-blue"
+    layer "m3-palette-green"
     layer "m3-roles-light-high-contrast"
     layer "m3-ext-light-hicontrast"
     layer "bg-transparent"
     layer "theme"
 }
 
-variant "Maybe Material [Blurred] Workspace (High)" {
+variant "Maybe Material [Blurred] Mint (High)" {
     background "blurred"
     appearance "light"
     
-    layer "m3-palette-blue"
+    layer "m3-palette-green"
     layer "m3-roles-light-high-contrast"
     layer "m3-ext-light-hicontrast"
     layer "bg-blurred"
@@ -542,66 +476,66 @@ variant "Maybe Material [Blurred] Blueprint (High)" {
     layer "theme"
 }
 
-variant "Maybe Material Lavender" {
+variant "Maybe Material Workspace" {
     background "opaque"
     appearance "light"
     
-    layer "m3-palette-magenta"
+    layer "m3-palette-blue"
     layer "m3-roles-light-standard"
     layer "m3-ext-light"
     layer "bg-opaque"
     layer "theme"
 }
 
-variant "Maybe Material [Transparent] Lavender" {
+variant "Maybe Material [Transparent] Workspace" {
     background "transparent"
     appearance "light"
     
-    layer "m3-palette-magenta"
+    layer "m3-palette-blue"
     layer "m3-roles-light-standard"
     layer "m3-ext-light"
     layer "bg-transparent"
     layer "theme"
 }
 
-variant "Maybe Material [Blurred] Lavender" {
+variant "Maybe Material [Blurred] Workspace" {
     background "blurred"
     appearance "light"
     
-    layer "m3-palette-magenta"
+    layer "m3-palette-blue"
     layer "m3-roles-light-standard"
     layer "m3-ext-light"
     layer "bg-blurred"
     layer "theme"
 }
 
-variant "Maybe Material Lavender (High)" {
+variant "Maybe Material Workspace (High)" {
     background "opaque"
     appearance "light"
     
-    layer "m3-palette-magenta"
+    layer "m3-palette-blue"
     layer "m3-roles-light-high-contrast"
     layer "m3-ext-light-hicontrast"
     layer "bg-opaque"
     layer "theme"
 }
 
-variant "Maybe Material [Transparent] Lavender (High)" {
+variant "Maybe Material [Transparent] Workspace (High)" {
     background "transparent"
     appearance "light"
     
-    layer "m3-palette-magenta"
+    layer "m3-palette-blue"
     layer "m3-roles-light-high-contrast"
     layer "m3-ext-light-hicontrast"
     layer "bg-transparent"
     layer "theme"
 }
 
-variant "Maybe Material [Blurred] Lavender (High)" {
+variant "Maybe Material [Blurred] Workspace (High)" {
     background "blurred"
     appearance "light"
     
-    layer "m3-palette-magenta"
+    layer "m3-palette-blue"
     layer "m3-roles-light-high-contrast"
     layer "m3-ext-light-hicontrast"
     layer "bg-blurred"
@@ -674,66 +608,66 @@ variant "Maybe Material [Blurred] Amethyst (High)" {
     layer "theme"
 }
 
-variant "Maybe Material Valerate" {
+variant "Maybe Material Lavender" {
     background "opaque"
     appearance "light"
     
-    layer "m3-palette-cyan"
+    layer "m3-palette-magenta"
     layer "m3-roles-light-standard"
     layer "m3-ext-light"
     layer "bg-opaque"
     layer "theme"
 }
 
-variant "Maybe Material [Transparent] Valerate" {
+variant "Maybe Material [Transparent] Lavender" {
     background "transparent"
     appearance "light"
     
-    layer "m3-palette-cyan"
+    layer "m3-palette-magenta"
     layer "m3-roles-light-standard"
     layer "m3-ext-light"
     layer "bg-transparent"
     layer "theme"
 }
 
-variant "Maybe Material [Blurred] Valerate" {
+variant "Maybe Material [Blurred] Lavender" {
     background "blurred"
     appearance "light"
     
-    layer "m3-palette-cyan"
+    layer "m3-palette-magenta"
     layer "m3-roles-light-standard"
     layer "m3-ext-light"
     layer "bg-blurred"
     layer "theme"
 }
 
-variant "Maybe Material Valerate (High)" {
+variant "Maybe Material Lavender (High)" {
     background "opaque"
     appearance "light"
     
-    layer "m3-palette-cyan"
+    layer "m3-palette-magenta"
     layer "m3-roles-light-high-contrast"
     layer "m3-ext-light-hicontrast"
     layer "bg-opaque"
     layer "theme"
 }
 
-variant "Maybe Material [Transparent] Valerate (High)" {
+variant "Maybe Material [Transparent] Lavender (High)" {
     background "transparent"
     appearance "light"
     
-    layer "m3-palette-cyan"
+    layer "m3-palette-magenta"
     layer "m3-roles-light-high-contrast"
     layer "m3-ext-light-hicontrast"
     layer "bg-transparent"
     layer "theme"
 }
 
-variant "Maybe Material [Blurred] Valerate (High)" {
+variant "Maybe Material [Blurred] Lavender (High)" {
     background "blurred"
     appearance "light"
     
-    layer "m3-palette-cyan"
+    layer "m3-palette-magenta"
     layer "m3-roles-light-high-contrast"
     layer "m3-ext-light-hicontrast"
     layer "bg-blurred"
@@ -802,6 +736,72 @@ variant "Maybe Material [Blurred] Cypionate (High)" {
     layer "m3-palette-cyan"
     layer "m3-roles-dark-high-contrast"
     layer "m3-ext-dark-hicontrast"
+    layer "bg-blurred"
+    layer "theme"
+}
+
+variant "Maybe Material Valerate" {
+    background "opaque"
+    appearance "light"
+    
+    layer "m3-palette-cyan"
+    layer "m3-roles-light-standard"
+    layer "m3-ext-light"
+    layer "bg-opaque"
+    layer "theme"
+}
+
+variant "Maybe Material [Transparent] Valerate" {
+    background "transparent"
+    appearance "light"
+    
+    layer "m3-palette-cyan"
+    layer "m3-roles-light-standard"
+    layer "m3-ext-light"
+    layer "bg-transparent"
+    layer "theme"
+}
+
+variant "Maybe Material [Blurred] Valerate" {
+    background "blurred"
+    appearance "light"
+    
+    layer "m3-palette-cyan"
+    layer "m3-roles-light-standard"
+    layer "m3-ext-light"
+    layer "bg-blurred"
+    layer "theme"
+}
+
+variant "Maybe Material Valerate (High)" {
+    background "opaque"
+    appearance "light"
+    
+    layer "m3-palette-cyan"
+    layer "m3-roles-light-high-contrast"
+    layer "m3-ext-light-hicontrast"
+    layer "bg-opaque"
+    layer "theme"
+}
+
+variant "Maybe Material [Transparent] Valerate (High)" {
+    background "transparent"
+    appearance "light"
+    
+    layer "m3-palette-cyan"
+    layer "m3-roles-light-high-contrast"
+    layer "m3-ext-light-hicontrast"
+    layer "bg-transparent"
+    layer "theme"
+}
+
+variant "Maybe Material [Blurred] Valerate (High)" {
+    background "blurred"
+    appearance "light"
+    
+    layer "m3-palette-cyan"
+    layer "m3-roles-light-high-contrast"
+    layer "m3-ext-light-hicontrast"
     layer "bg-blurred"
     layer "theme"
 }
