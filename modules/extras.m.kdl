@@ -4,12 +4,15 @@ version 1
 
 layer "bg-opaque" {
     token "background-opacity" a=1
+    token "transparent-opacity" a=1
 }
 
-layer "bg-blur" {
-    token "background-opacity" a=0.8
+layer "bg-blurred" {
+    token "background-opacity" a=0.95
+    token "transparent-opacity" a=0
 }
 
 layer "bg-transparent" {
-    token "background-opacity" a=0.8
+    token "background-opacity" a=0.95
+    token "transparent-opacity" a=0
 }

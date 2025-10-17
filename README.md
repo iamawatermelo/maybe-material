@@ -28,6 +28,10 @@ Either:
 
 ## Themes
 
+> [!IMPORTANT]
+> Transparent and blurred variants are still being worked on. They might not
+> look quite right.
+
 As previously stated, there are:
 
 - Two schemes: light and dark

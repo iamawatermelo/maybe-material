@@ -25,7 +25,7 @@ for color, variation in variations.items():
     for (scheme, contrast, background) in itertools.product(
         ["light", "dark"],
         ["standard", "high"],  # "medium",
-        ["opaque", "transparent", "blur"]
+        ["opaque", "transparent", "blurred"]
     ):
         layers = [f'layer "m3-palette-{color}"']
         
@@ -53,6 +53,7 @@ for color, variation in variations.items():
         layers_str = "\n    ".join(layers)
 
         print(f'variant "{variant_name}" {{')
+        print(f'    background "{background}"')
         print(f'    appearance "{scheme}"')
         print('    ')
         print(f'    {layers_str}')

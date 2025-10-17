@@ -7,12 +7,12 @@ layer "theme" {
 
     style {
         // Core backgrounds and surfaces
-        background apply="surface background-opacity"
+        background apply="surface-container background-opacity"
         surface.background apply="surface-container background-opacity"
         elevated_surface.background apply="surface-container background-opacity"
 
         // Borders
-        border apply="surface-container-highest"
+        border apply="surface-container-highest transparent-opacity"
         border.variant apply="outline-variant"
         border.focused apply="secondary"
         border.selected apply="primary"
@@ -40,7 +40,7 @@ layer "theme" {
         element.disabled apply="surface-container low"
 
         // "Ghost" elements are typically lighter or borderless versions
-        ghost_element.background a=0.0
+        ghost_element.background a=0
         ghost_element.hover apply="surface-container low"
         ghost_element.active apply="surface-container low"
         ghost_element.selected apply="primary-container"
@@ -61,18 +61,20 @@ layer "theme" {
         title_bar.inactive_background apply="surface-container-highest background-opacity"
         toolbar.background apply="surface-container-high background-opacity"
         status_bar.background apply="surface-container-highest background-opacity"
-        panel.background apply="surface-container-low background-opacity"
+        panel.background a=0
+        panel.overlay_background apply="surface-container background-opacity"
+        panel.overlay_hover a=0
 
         // Tabs
-        tab_bar.background apply="surface background-opacity"
+        tab_bar.background a=0
         tab.active_background apply="surface-container background-opacity"
-        tab.inactive_background apply="surface background-opacity"
+        tab.inactive_background a=0
 
         // Core editor appearance
         editor.foreground apply="on-surface"
-        editor.background apply="surface background-opacity"
-        editor.gutter.background apply="surface"
-        editor.subheader.background apply="surface"
+        editor.background apply="surface transparent-opacity"
+        editor.gutter.background apply="surface transparent-opacity"
+        editor.subheader.background apply="surface transparent-opacity"
 
         // Line states
         editor.active_line.background apply="surface-container background-opacity"
@@ -94,7 +96,7 @@ layer "theme" {
         search.match_background apply="tertiary-container"
 
         // Base terminal colors
-        terminal.background apply="surface background-opacity"
+        terminal.background a=0
         terminal.foreground apply="on-surface"
         terminal.bright_foreground apply="on-surface highest"
         terminal.dim_foreground apply="on-surface lowest"
@@ -151,8 +153,8 @@ layer "theme" {
         hint apply="primary primary-palette"
         hint.background apply="on-primary primary-palette" a=0.1
         hint.border a=0
-        ignored apply="primary"
-        ignored.background apply="on-primary" a=0.1
+        ignored apply="on-surface-variant highest"
+        ignored.background apply="surface-variant" a=0.1
         ignored.border a=0
         info apply="primary info-palette"
         info.background apply="on-primary info-palette" a=0.1
