@@ -23,8 +23,8 @@ _**Honey.** With light and dark, high contrast and low contrast, opaque, transpa
 Either:
 
 - [Install Maybe Material from the Zed extension store.](https://zed.dev/extensions/maybe-material)
-- [Install this repository as a dev extension.](https://zed.dev/docs/extensions/developing-extensions#developing-an-extension-locally)
-- Move [themes/maybe-material.json](./themes/maybe-material.json) into your [Zed themes folder](https://zed.dev/docs/themes#local-themes).
+- [Install the extension/ folder as a dev extension.](https://zed.dev/docs/extensions/developing-extensions#developing-an-extension-locally)
+- Move [themes/maybe-material.json](./extension/themes/maybe-material.json) into your [Zed themes folder](https://zed.dev/docs/themes#local-themes).
 
 ## Themes
 
@@ -61,10 +61,8 @@ together Python scripts. So, you'll need Python 3.
 - [gen-palettes.py](./gen-palettes.py) is the code to generate palettes from [fixed-tokens.json](./fixed-tokens.json) and [variations.json](./variations.json).
 - [gen-root.py](./gen-root.py) generates [maybe-material.kdl](./maybe-material.kdl).
 
-After you're done tinkering:
+There's a Makefile, so after you're done tinkering, all you need to do is:
 
 ```sh
-# I'm using uvx (bundled with uv), because it's easier
-# You can also `pip install zed-hct-theme-maker` and omit `uvx`
-uvx zed-hct-theme-maker compile maybe-material.kdl > themes/maybe-material.json
+make build
 ```
