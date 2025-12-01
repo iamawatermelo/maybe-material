@@ -135,18 +135,21 @@ layer "theme" {
         version_control.conflict_marker.theirs a=0.1 apply="tertiary"
 
         // Generic states used across the UI (e.g., in file tree)
-        conflict apply="primary tertiary-palette"
-        conflict.background apply="on-primary tertiary-palette" a=0.1
+        conflict apply="primary tertiary-palette" c="+10"
+        conflict.background apply="on-primary tertiary-palette accent" a=0.1
         conflict.border a=0
-        created apply="primary syntax-green-palette"
-        created.background apply="on-primary syntax-green-palette" a=0.1
+        created apply="primary syntax-green-palette" c="+10"
+        created.background apply="on-primary syntax-green-palette accent" a=0.1
         created.border a=0
-        deleted apply="primary syntax-red-palette"
-        deleted.background apply="on-primary syntax-red-palette" a=0.1
+        deleted apply="primary syntax-red-palette" c="+10"
+        deleted.background apply="on-primary syntax-red-palette accent" a=0.1
         deleted.border a=0
-        error apply="primary error-palette"
-        error.background apply="on-primary error-palette" a=0.1
+        error apply="primary error-palette" c="+10"
+        error.background apply="on-primary error-palette accent" a=0.1
         error.border a=0
+        warning apply="primary warning-palette" c="+10"
+        warning.background apply="on-primary warning-palette accent" a=0.1
+        warning.border a=0
         hidden apply="primary syntax-blue-palette"
         hidden.background apply="on-primary syntax-blue-palette" a=0.1
         hidden.border a=0
@@ -174,9 +177,6 @@ layer "theme" {
         unreachable apply="primary"
         unreachable.background apply="on-primary" a=0.1
         unreachable.border a=0
-        warning apply="primary warning-palette"
-        warning.background apply="on-primary warning-palette" a=0.1
-        warning.border a=0
     }
 
     syntax {
@@ -188,6 +188,7 @@ layer "theme" {
         }
         function.builtin apply="on-surface secondary-palette accent"
         type.builtin apply="on-surface secondary-palette accent"
+        tag apply="on-surface primary-palette accent"
 
         // High visual weight elements
         type apply="syntax-base tertiary-palette"

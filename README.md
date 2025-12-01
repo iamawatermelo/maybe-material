@@ -1,5 +1,8 @@
 # [Maybe Material for Zed](https://zed.dev/extensions/maybe-material)
 
+> [!NOTE]
+> **New:** Use Maybe Material with [Prism](https://prismjs.com/): [prism/](prism/)
+
 > **🩷 Curated vibrant and harmonious themes in various colors, schemes and contrast options.** It's like Not Material's older sister.
 > 
 > Red, yellow, green, blue, purple, cyan. Light and dark, two contrast options, three background options. 72 variations in total.

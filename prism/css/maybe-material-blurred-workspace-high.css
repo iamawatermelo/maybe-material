@@ -1,0 +1,112 @@
+/**
+ * Theme: Maybe Material [Blurred] Workspace (High)
+ * Generated from a Zed theme file.
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+    background: #00000000;
+    color: #000000;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-size: 1em;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+pre[class*="language-"] {
+    padding: 1em;
+    margin: 0.5em 0;
+    overflow: auto;
+    border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"] {
+    padding: 0.1em;
+    border-radius: 0.3em;
+    white-space: normal;
+}
+
+.token.namespace {
+    opacity: .7;
+}
+
+.token.cdata,
+.token.comment,
+.token.doctype,
+.token.prolog,
+.token.punctuation {
+    color: #283237;
+}
+
+.token.comment.doc {
+    color: #233f4c;
+    font-style: italic;
+}
+
+.token.atrule,
+.token.keyword {
+    color: #4f0089;
+}
+
+.token.attr-name,
+.token.attr-value,
+.token.char,
+.token.class-name,
+.token.function,
+.token.property,
+.token.string,
+.token.text.literal,
+.token.url {
+    color: #5c3011;
+}
+
+.token.builtin {
+    color: #003068;
+}
+
+.token.variable {
+    color: #680300;
+    font-weight: 700;
+}
+
+.token.boolean,
+.token.constant {
+    color: #b34b00;
+}
+
+.token.number {
+    color: #8f3700;
+}
+
+.token.deleted,
+.token.error {
+    color: #000000;
+}
+
+.token.selector,
+.token.title {
+    color: #003068;
+    font-weight: 700;
+}
+
+.token.italic {
+    font-style: italic;
+}
+
+.token.bold {
+    font-weight: 700;
+}
+
+.token.entity {
+    color: #00354f;
+}
